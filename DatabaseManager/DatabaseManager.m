@@ -55,7 +55,7 @@
 
 - (void)hideTables {
     [UIView animateWithDuration:0.3 animations:^{
-        self.showWindow.transform = CGAffineTransformMakeTranslation(0, _showWindow.bounds.size.height);
+        self.showWindow.transform = CGAffineTransformMakeTranslation(0, self.showWindow.bounds.size.height);
     }completion:^(BOOL finished) {
         self.showWindow.hidden = true;
         self.showWindow = nil;
