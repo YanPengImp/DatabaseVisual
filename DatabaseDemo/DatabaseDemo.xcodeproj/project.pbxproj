@@ -24,6 +24,7 @@
 		B58A47BE219C2BEF00E5852F /* DatabaseLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47B4219C2BEF00E5852F /* DatabaseLeftTableViewCell.m */; };
 		B58A47BF219C2BEF00E5852F /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47B5219C2BEF00E5852F /* DatabaseManager.m */; };
 		B58A47C3219D155700E5852F /* store.db in Resources */ = {isa = PBXBuildFile; fileRef = B58A47C2219D155700E5852F /* store.db */; };
+		B58A47C5219D198E00E5852F /* databasedemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = B58A47C4219D198D00E5852F /* databasedemo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		B58A47B4219C2BEF00E5852F /* DatabaseLeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseLeftTableViewCell.m; sourceTree = "<group>"; };
 		B58A47B5219C2BEF00E5852F /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
 		B58A47C2219D155700E5852F /* store.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = store.db; sourceTree = "<group>"; };
+		B58A47C4219D198D00E5852F /* databasedemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = databasedemo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B58A4779219C2AB300E5852F /* Info.plist */,
 				B58A477A219C2AB300E5852F /* main.m */,
 				B58A47C2219D155700E5852F /* store.db */,
+				B58A47C4219D198D00E5852F /* databasedemo.gif */,
 				B58A4783219C2BA900E5852F /* DatabaseManager */,
 			);
 			path = DatabaseDemo;
@@ -189,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58A47C5219D198E00E5852F /* databasedemo.gif in Resources */,
 				B58A4778219C2AB300E5852F /* LaunchScreen.storyboard in Resources */,
 				B58A47C3219D155700E5852F /* store.db in Resources */,
 				B58A4775219C2AB300E5852F /* Assets.xcassets in Resources */,
