@@ -21,7 +21,7 @@
     NSString *dbPath = [docDir stringByAppendingPathComponent:@"DatabaseDemo.sqlite3"];
     //将数据库文件从bundle拷贝到沙盒
     if (![[NSFileManager defaultManager] fileExistsAtPath:dbPath]) {
-        NSString *dbBundlePath = [[NSBundle mainBundle] pathForResource:@"DatabaseDemo" ofType:@"sqlite3"];
+        NSString *dbBundlePath = [[NSBundle mainBundle] pathForResource:@"store" ofType:@"db"];
         [[NSFileManager defaultManager] copyItemAtPath:dbBundlePath toPath:dbPath error:nil];
     }
     return YES;

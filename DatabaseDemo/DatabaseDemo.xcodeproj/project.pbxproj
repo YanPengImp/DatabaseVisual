@@ -23,7 +23,7 @@
 		B58A47BD219C2BEF00E5852F /* DatabaseContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47B1219C2BEE00E5852F /* DatabaseContentViewController.m */; };
 		B58A47BE219C2BEF00E5852F /* DatabaseLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47B4219C2BEF00E5852F /* DatabaseLeftTableViewCell.m */; };
 		B58A47BF219C2BEF00E5852F /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47B5219C2BEF00E5852F /* DatabaseManager.m */; };
-		B58A47C1219C2C1800E5852F /* DatabaseDemo.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = B58A47C0219C2C1800E5852F /* DatabaseDemo.sqlite3 */; };
+		B58A47C3219D155700E5852F /* store.db in Resources */ = {isa = PBXBuildFile; fileRef = B58A47C2219D155700E5852F /* store.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +57,7 @@
 		B58A47B3219C2BEF00E5852F /* DatabaseGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseGridView.h; sourceTree = "<group>"; };
 		B58A47B4219C2BEF00E5852F /* DatabaseLeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseLeftTableViewCell.m; sourceTree = "<group>"; };
 		B58A47B5219C2BEF00E5852F /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
-		B58A47C0219C2C1800E5852F /* DatabaseDemo.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DatabaseDemo.sqlite3; sourceTree = "<group>"; };
+		B58A47C2219D155700E5852F /* store.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = store.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 				B58A4776219C2AB300E5852F /* LaunchScreen.storyboard */,
 				B58A4779219C2AB300E5852F /* Info.plist */,
 				B58A477A219C2AB300E5852F /* main.m */,
-				B58A47C0219C2C1800E5852F /* DatabaseDemo.sqlite3 */,
+				B58A47C2219D155700E5852F /* store.db */,
 				B58A4783219C2BA900E5852F /* DatabaseManager */,
 			);
 			path = DatabaseDemo;
@@ -190,7 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B58A4778219C2AB300E5852F /* LaunchScreen.storyboard in Resources */,
-				B58A47C1219C2C1800E5852F /* DatabaseDemo.sqlite3 in Resources */,
+				B58A47C3219D155700E5852F /* store.db in Resources */,
 				B58A4775219C2AB300E5852F /* Assets.xcassets in Resources */,
 				B58A4773219C2AB000E5852F /* Main.storyboard in Resources */,
 			);
