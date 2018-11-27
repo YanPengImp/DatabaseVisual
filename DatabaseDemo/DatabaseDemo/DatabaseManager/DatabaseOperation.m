@@ -8,6 +8,7 @@
 
 #import "DatabaseOperation.h"
 #import <sqlite3.h>
+#import <pthread.h>
 
 typedef enum : NSUInteger {
     DatabaseTypeInteger = 0,
@@ -21,11 +22,13 @@ typedef enum : NSUInteger {
 {
     sqlite3 *_db;
     NSString *_databasePath;
+    pthread_mutex_t mutex;
 }
 
 - (instancetype)initWithPath:(NSString *)path {
     if (self = [super init]) {
         _databasePath = [path copy];
+        pthread_mutex_init(&mutex, NULL);
     }
     return self;
 }
@@ -72,6 +75,7 @@ typedef enum : NSUInteger {
 #pragma mark -- Private
 
 - (BOOL)open {
+    pthread_mutex_lock(&mutex);
     if (_db) {
         return YES;
     }
@@ -109,6 +113,7 @@ typedef enum : NSUInteger {
         }
     } while (retry);
     _db = nil;
+    pthread_mutex_unlock(&mutex);
     return YES;
 }
 
