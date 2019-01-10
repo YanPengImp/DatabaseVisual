@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)loadContents:(NSArray *)contents;
 
-@property (nonatomic, copy) void(^clickLabel)(NSInteger column);
+@property (nonatomic, copy) void(^clickLabel)(UILabel *label, NSInteger column);
 
 @end
 
