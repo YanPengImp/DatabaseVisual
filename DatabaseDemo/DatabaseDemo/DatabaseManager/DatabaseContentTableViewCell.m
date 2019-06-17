@@ -69,7 +69,7 @@
 - (void)tapLabelAction:(UITapGestureRecognizer *)gesture {
     UILabel *label = (UILabel *)gesture.view;
     if (self.clickLabel) {
-        self.clickLabel(label.tag - 10000);
+        self.clickLabel(label, label.tag - 10000);
     }
 }
 
