@@ -17,7 +17,7 @@ typedef struct _GridIndex {
 @protocol DatabaseGridViewDelegate <NSObject>
 
 @optional
-- (void)gridView:(DatabaseGridView *)gridView didClickContentInGridIndex:(GridIndex)gridIndex;
+- (void)gridView:(DatabaseGridView *)gridView didClickContentLabel:(UILabel *)label gridIndex:(GridIndex)gridIndex;
 - (void)gridView:(DatabaseGridView *)gridView didSelectedRow:(NSInteger)row;
 - (void)gridView:(DatabaseGridView *)gridView didDeselectedRow:(NSInteger)row;
 

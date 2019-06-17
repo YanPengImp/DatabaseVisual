@@ -126,7 +126,7 @@
     return 30;
 }
 
-- (void)gridView:(DatabaseGridView *)gridView didClickContentInGridIndex:(GridIndex)gridIndex {
+- (void)gridView:(DatabaseGridView *)gridView didClickContentLabel:(UILabel *)label gridIndex:(GridIndex)gridIndex {
     NSString *content = [self contentsAtRow:gridIndex.row][gridIndex.column];
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:content message:nil preferredStyle:UIAlertControllerStyleActionSheet];
     [alert addAction:[UIAlertAction actionWithTitle:@"copy" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
@@ -140,6 +140,15 @@
         [weakSelf jumpmToModifyViewControllerWithContent:content gridIndex:gridIndex];
     }]];
     [alert addAction:[UIAlertAction actionWithTitle:@"cancel" style:UIAlertActionStyleCancel handler:nil]];
+    if ([[UIDevice currentDevice].model isEqualToString:@"iPad"]) {
+        // fix iPad crash when show alert
+        // https://stackoverflow.com/questions/24224916/presenting-a-uialertcontroller-properly-on-an-ipad-using-ios-8
+        [alert setModalPresentationStyle:UIModalPresentationPopover];
+        UIPopoverPresentationController *popPresenter = [alert
+                                                         popoverPresentationController];
+        popPresenter.sourceView = label;
+        popPresenter.sourceRect = label.bounds;
+    }
     [self presentViewController:alert animated:YES completion:nil];
 }
 
