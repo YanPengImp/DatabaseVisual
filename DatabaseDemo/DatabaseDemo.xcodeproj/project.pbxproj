@@ -7,27 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B52A59982317B1660040EAD3 /* DatabaseLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B52A59842317B1660040EAD3 /* DatabaseLeftTableViewCell.m */; };
+		B52A59992317B1660040EAD3 /* DatabaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52A59852317B1660040EAD3 /* DatabaseTableViewController.m */; };
+		B52A599A2317B1660040EAD3 /* DatabaseContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52A59862317B1660040EAD3 /* DatabaseContentViewController.m */; };
+		B52A599B2317B1660040EAD3 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B52A59882317B1660040EAD3 /* DatabaseManager.m */; };
+		B52A599C2317B1660040EAD3 /* DatabaseGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = B52A59922317B1660040EAD3 /* DatabaseGridView.m */; };
+		B52A599D2317B1660040EAD3 /* DatabaseFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B52A59932317B1660040EAD3 /* DatabaseFactory.m */; };
+		B52A599E2317B1660040EAD3 /* DatabaseContentModifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52A59942317B1660040EAD3 /* DatabaseContentModifyViewController.m */; };
+		B52A599F2317B1660040EAD3 /* DatabaseContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B52A59952317B1660040EAD3 /* DatabaseContentTableViewCell.m */; };
+		B52A59A02317B1660040EAD3 /* DatabaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52A59962317B1660040EAD3 /* DatabaseListViewController.m */; };
+		B52A59A12317B1660040EAD3 /* DatabaseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B52A59972317B1660040EAD3 /* DatabaseOperation.m */; };
 		B58A476D219C2AB000E5852F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A476C219C2AB000E5852F /* AppDelegate.m */; };
 		B58A4770219C2AB000E5852F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A476F219C2AB000E5852F /* ViewController.m */; };
 		B58A4773219C2AB000E5852F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58A4771219C2AB000E5852F /* Main.storyboard */; };
 		B58A4775219C2AB300E5852F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58A4774219C2AB300E5852F /* Assets.xcassets */; };
 		B58A4778219C2AB300E5852F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58A4776219C2AB300E5852F /* LaunchScreen.storyboard */; };
 		B58A477B219C2AB300E5852F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A477A219C2AB300E5852F /* main.m */; };
-		B58A47B6219C2BEF00E5852F /* DatabaseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47A2219C2BEE00E5852F /* DatabaseOperation.m */; };
-		B58A47B7219C2BEF00E5852F /* DatabaseContentModifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47A3219C2BEE00E5852F /* DatabaseContentModifyViewController.m */; };
-		B58A47B8219C2BEF00E5852F /* DatabaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47A4219C2BEE00E5852F /* DatabaseTableViewController.m */; };
-		B58A47B9219C2BEF00E5852F /* DatabaseContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47A6219C2BEE00E5852F /* DatabaseContentTableViewCell.m */; };
-		B58A47BA219C2BEF00E5852F /* DatabaseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47A8219C2BEE00E5852F /* DatabaseListViewController.m */; };
-		B58A47BB219C2BEF00E5852F /* DatabaseFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47A9219C2BEE00E5852F /* DatabaseFactory.m */; };
-		B58A47BC219C2BEF00E5852F /* DatabaseGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47AA219C2BEE00E5852F /* DatabaseGridView.m */; };
-		B58A47BD219C2BEF00E5852F /* DatabaseContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47B1219C2BEE00E5852F /* DatabaseContentViewController.m */; };
-		B58A47BE219C2BEF00E5852F /* DatabaseLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47B4219C2BEF00E5852F /* DatabaseLeftTableViewCell.m */; };
-		B58A47BF219C2BEF00E5852F /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A47B5219C2BEF00E5852F /* DatabaseManager.m */; };
 		B58A47C3219D155700E5852F /* store.db in Resources */ = {isa = PBXBuildFile; fileRef = B58A47C2219D155700E5852F /* store.db */; };
 		B58A47C5219D198E00E5852F /* databasedemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = B58A47C4219D198D00E5852F /* databasedemo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B52A59842317B1660040EAD3 /* DatabaseLeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseLeftTableViewCell.m; sourceTree = "<group>"; };
+		B52A59852317B1660040EAD3 /* DatabaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseTableViewController.m; sourceTree = "<group>"; };
+		B52A59862317B1660040EAD3 /* DatabaseContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseContentViewController.m; sourceTree = "<group>"; };
+		B52A59872317B1660040EAD3 /* DatabaseGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseGridView.h; sourceTree = "<group>"; };
+		B52A59882317B1660040EAD3 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		B52A59892317B1660040EAD3 /* DatabaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseOperation.h; sourceTree = "<group>"; };
+		B52A598A2317B1660040EAD3 /* DatabaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseListViewController.h; sourceTree = "<group>"; };
+		B52A598B2317B1660040EAD3 /* DatabaseContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseContentTableViewCell.h; sourceTree = "<group>"; };
+		B52A598C2317B1660040EAD3 /* DatabaseContentModifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseContentModifyViewController.h; sourceTree = "<group>"; };
+		B52A598D2317B1660040EAD3 /* DatabaseFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseFactory.h; sourceTree = "<group>"; };
+		B52A598E2317B1660040EAD3 /* DatabaseLeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseLeftTableViewCell.h; sourceTree = "<group>"; };
+		B52A598F2317B1660040EAD3 /* DatabaseContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseContentViewController.h; sourceTree = "<group>"; };
+		B52A59902317B1660040EAD3 /* DatabaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseTableViewController.h; sourceTree = "<group>"; };
+		B52A59912317B1660040EAD3 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		B52A59922317B1660040EAD3 /* DatabaseGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseGridView.m; sourceTree = "<group>"; };
+		B52A59932317B1660040EAD3 /* DatabaseFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseFactory.m; sourceTree = "<group>"; };
+		B52A59942317B1660040EAD3 /* DatabaseContentModifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseContentModifyViewController.m; sourceTree = "<group>"; };
+		B52A59952317B1660040EAD3 /* DatabaseContentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseContentTableViewCell.m; sourceTree = "<group>"; };
+		B52A59962317B1660040EAD3 /* DatabaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseListViewController.m; sourceTree = "<group>"; };
+		B52A59972317B1660040EAD3 /* DatabaseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseOperation.m; sourceTree = "<group>"; };
 		B58A4768219C2AB000E5852F /* DatabaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatabaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58A476B219C2AB000E5852F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B58A476C219C2AB000E5852F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,26 +58,6 @@
 		B58A4777219C2AB300E5852F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B58A4779219C2AB300E5852F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B58A477A219C2AB300E5852F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B58A47A2219C2BEE00E5852F /* DatabaseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseOperation.m; sourceTree = "<group>"; };
-		B58A47A3219C2BEE00E5852F /* DatabaseContentModifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseContentModifyViewController.m; sourceTree = "<group>"; };
-		B58A47A4219C2BEE00E5852F /* DatabaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseTableViewController.m; sourceTree = "<group>"; };
-		B58A47A5219C2BEE00E5852F /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
-		B58A47A6219C2BEE00E5852F /* DatabaseContentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseContentTableViewCell.m; sourceTree = "<group>"; };
-		B58A47A7219C2BEE00E5852F /* DatabaseListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseListViewController.h; sourceTree = "<group>"; };
-		B58A47A8219C2BEE00E5852F /* DatabaseListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseListViewController.m; sourceTree = "<group>"; };
-		B58A47A9219C2BEE00E5852F /* DatabaseFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseFactory.m; sourceTree = "<group>"; };
-		B58A47AA219C2BEE00E5852F /* DatabaseGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseGridView.m; sourceTree = "<group>"; };
-		B58A47AB219C2BEE00E5852F /* DatabaseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseOperation.h; sourceTree = "<group>"; };
-		B58A47AC219C2BEE00E5852F /* DatabaseLeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseLeftTableViewCell.h; sourceTree = "<group>"; };
-		B58A47AD219C2BEE00E5852F /* DatabaseContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseContentTableViewCell.h; sourceTree = "<group>"; };
-		B58A47AE219C2BEE00E5852F /* DatabaseContentModifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseContentModifyViewController.h; sourceTree = "<group>"; };
-		B58A47AF219C2BEE00E5852F /* DatabaseContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseContentViewController.h; sourceTree = "<group>"; };
-		B58A47B0219C2BEE00E5852F /* DatabaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseTableViewController.h; sourceTree = "<group>"; };
-		B58A47B1219C2BEE00E5852F /* DatabaseContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseContentViewController.m; sourceTree = "<group>"; };
-		B58A47B2219C2BEE00E5852F /* DatabaseFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseFactory.h; sourceTree = "<group>"; };
-		B58A47B3219C2BEF00E5852F /* DatabaseGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseGridView.h; sourceTree = "<group>"; };
-		B58A47B4219C2BEF00E5852F /* DatabaseLeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseLeftTableViewCell.m; sourceTree = "<group>"; };
-		B58A47B5219C2BEF00E5852F /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
 		B58A47C2219D155700E5852F /* store.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = store.db; sourceTree = "<group>"; };
 		B58A47C4219D198D00E5852F /* databasedemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = databasedemo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +73,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B52A59832317B1660040EAD3 /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				B52A59842317B1660040EAD3 /* DatabaseLeftTableViewCell.m */,
+				B52A59852317B1660040EAD3 /* DatabaseTableViewController.m */,
+				B52A59862317B1660040EAD3 /* DatabaseContentViewController.m */,
+				B52A59872317B1660040EAD3 /* DatabaseGridView.h */,
+				B52A59882317B1660040EAD3 /* DatabaseManager.m */,
+				B52A59892317B1660040EAD3 /* DatabaseOperation.h */,
+				B52A598A2317B1660040EAD3 /* DatabaseListViewController.h */,
+				B52A598B2317B1660040EAD3 /* DatabaseContentTableViewCell.h */,
+				B52A598C2317B1660040EAD3 /* DatabaseContentModifyViewController.h */,
+				B52A598D2317B1660040EAD3 /* DatabaseFactory.h */,
+				B52A598E2317B1660040EAD3 /* DatabaseLeftTableViewCell.h */,
+				B52A598F2317B1660040EAD3 /* DatabaseContentViewController.h */,
+				B52A59902317B1660040EAD3 /* DatabaseTableViewController.h */,
+				B52A59912317B1660040EAD3 /* DatabaseManager.h */,
+				B52A59922317B1660040EAD3 /* DatabaseGridView.m */,
+				B52A59932317B1660040EAD3 /* DatabaseFactory.m */,
+				B52A59942317B1660040EAD3 /* DatabaseContentModifyViewController.m */,
+				B52A59952317B1660040EAD3 /* DatabaseContentTableViewCell.m */,
+				B52A59962317B1660040EAD3 /* DatabaseListViewController.m */,
+				B52A59972317B1660040EAD3 /* DatabaseOperation.m */,
+			);
+			name = DatabaseManager;
+			path = ../../DatabaseManager;
+			sourceTree = "<group>";
+		};
 		B58A475F219C2AB000E5852F = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +120,7 @@
 		B58A476A219C2AB000E5852F /* DatabaseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B52A59832317B1660040EAD3 /* DatabaseManager */,
 				B58A476B219C2AB000E5852F /* AppDelegate.h */,
 				B58A476C219C2AB000E5852F /* AppDelegate.m */,
 				B58A476E219C2AB000E5852F /* ViewController.h */,
@@ -103,36 +132,8 @@
 				B58A477A219C2AB300E5852F /* main.m */,
 				B58A47C2219D155700E5852F /* store.db */,
 				B58A47C4219D198D00E5852F /* databasedemo.gif */,
-				B58A4783219C2BA900E5852F /* DatabaseManager */,
 			);
 			path = DatabaseDemo;
-			sourceTree = "<group>";
-		};
-		B58A4783219C2BA900E5852F /* DatabaseManager */ = {
-			isa = PBXGroup;
-			children = (
-				B58A47AE219C2BEE00E5852F /* DatabaseContentModifyViewController.h */,
-				B58A47A3219C2BEE00E5852F /* DatabaseContentModifyViewController.m */,
-				B58A47AD219C2BEE00E5852F /* DatabaseContentTableViewCell.h */,
-				B58A47A6219C2BEE00E5852F /* DatabaseContentTableViewCell.m */,
-				B58A47AF219C2BEE00E5852F /* DatabaseContentViewController.h */,
-				B58A47B1219C2BEE00E5852F /* DatabaseContentViewController.m */,
-				B58A47B2219C2BEE00E5852F /* DatabaseFactory.h */,
-				B58A47A9219C2BEE00E5852F /* DatabaseFactory.m */,
-				B58A47B3219C2BEF00E5852F /* DatabaseGridView.h */,
-				B58A47AA219C2BEE00E5852F /* DatabaseGridView.m */,
-				B58A47AC219C2BEE00E5852F /* DatabaseLeftTableViewCell.h */,
-				B58A47B4219C2BEF00E5852F /* DatabaseLeftTableViewCell.m */,
-				B58A47A7219C2BEE00E5852F /* DatabaseListViewController.h */,
-				B58A47A8219C2BEE00E5852F /* DatabaseListViewController.m */,
-				B58A47A5219C2BEE00E5852F /* DatabaseManager.h */,
-				B58A47B5219C2BEF00E5852F /* DatabaseManager.m */,
-				B58A47AB219C2BEE00E5852F /* DatabaseOperation.h */,
-				B58A47A2219C2BEE00E5852F /* DatabaseOperation.m */,
-				B58A47B0219C2BEE00E5852F /* DatabaseTableViewController.h */,
-				B58A47A4219C2BEE00E5852F /* DatabaseTableViewController.m */,
-			);
-			path = DatabaseManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,19 +208,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B58A47B9219C2BEF00E5852F /* DatabaseContentTableViewCell.m in Sources */,
-				B58A47BE219C2BEF00E5852F /* DatabaseLeftTableViewCell.m in Sources */,
-				B58A47B6219C2BEF00E5852F /* DatabaseOperation.m in Sources */,
+				B52A599F2317B1660040EAD3 /* DatabaseContentTableViewCell.m in Sources */,
 				B58A4770219C2AB000E5852F /* ViewController.m in Sources */,
-				B58A47B8219C2BEF00E5852F /* DatabaseTableViewController.m in Sources */,
+				B52A599B2317B1660040EAD3 /* DatabaseManager.m in Sources */,
+				B52A59992317B1660040EAD3 /* DatabaseTableViewController.m in Sources */,
+				B52A599E2317B1660040EAD3 /* DatabaseContentModifyViewController.m in Sources */,
+				B52A599C2317B1660040EAD3 /* DatabaseGridView.m in Sources */,
+				B52A59982317B1660040EAD3 /* DatabaseLeftTableViewCell.m in Sources */,
+				B52A599D2317B1660040EAD3 /* DatabaseFactory.m in Sources */,
+				B52A59A12317B1660040EAD3 /* DatabaseOperation.m in Sources */,
+				B52A599A2317B1660040EAD3 /* DatabaseContentViewController.m in Sources */,
 				B58A477B219C2AB300E5852F /* main.m in Sources */,
-				B58A47BC219C2BEF00E5852F /* DatabaseGridView.m in Sources */,
-				B58A47BB219C2BEF00E5852F /* DatabaseFactory.m in Sources */,
-				B58A47B7219C2BEF00E5852F /* DatabaseContentModifyViewController.m in Sources */,
 				B58A476D219C2AB000E5852F /* AppDelegate.m in Sources */,
-				B58A47BA219C2BEF00E5852F /* DatabaseListViewController.m in Sources */,
-				B58A47BD219C2BEF00E5852F /* DatabaseContentViewController.m in Sources */,
-				B58A47BF219C2BEF00E5852F /* DatabaseManager.m in Sources */,
+				B52A59A02317B1660040EAD3 /* DatabaseListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

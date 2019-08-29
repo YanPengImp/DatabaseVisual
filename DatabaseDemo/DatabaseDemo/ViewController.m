@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "DatabaseManager/DatabaseManager.h"
+#import "DatabaseManager.h"
 
 @interface ViewController ()
 

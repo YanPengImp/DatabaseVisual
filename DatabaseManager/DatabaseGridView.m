@@ -170,11 +170,11 @@ static CGFloat kGridContentCellHeight = 30.f;
             [cell loadContents:[self.dataSource contentsAtRow:indexPath.row]];
         }
         __weak typeof(self) weakSelf = self;
-        cell.clickLabel = ^(NSInteger column) {
+        cell.clickLabel = ^(UILabel *label, NSInteger column) {
             GridIndex index;
             index.column = column;
             index.row = indexPath.row;
-            [weakSelf didClickContentLabelWithGridIndex:index];
+            [weakSelf didClickContentLabel:label gridIndex:index];
         };
         if (isUnEvenRow) {
             cell.backgroundColor = [UIColor colorWithRed:240/255.0 green:240/255.0 blue:240/255.0 alpha:1];
@@ -218,9 +218,9 @@ static CGFloat kGridContentCellHeight = 30.f;
     }
 }
 
-- (void)didClickContentLabelWithGridIndex:(GridIndex)gridIndex {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(gridView:didClickContentInGridIndex:)]) {
-        [self.delegate gridView:self didClickContentInGridIndex:gridIndex];
+- (void)didClickContentLabel:(UILabel *)label gridIndex:(GridIndex)gridIndex {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(gridView:didClickContentLabel:gridIndex:)]) {
+        [self.delegate gridView:self didClickContentLabel:label gridIndex:gridIndex];
     }
 }
 
